@@ -181,6 +181,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  csm:
+    output: true
+    permalink: /:conllection/:path/
 
 
 # Defaults
@@ -238,6 +241,16 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _csm
+  - scope:
+      path: ""
+      type: csm
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+
 
 # Sass/SCSS
 sass:
