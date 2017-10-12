@@ -184,7 +184,9 @@ collections:
   csm:
     output: true
     permalink: /:conllection/:path/
-
+  vim:
+    output: true
+    permalink: /:conllection/:path/
 
 # Defaults
 defaults:
@@ -250,7 +252,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
-
+  # _vim
+  - scope:
+      path: ""
+      type: vim
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 # Sass/SCSS
 sass:
