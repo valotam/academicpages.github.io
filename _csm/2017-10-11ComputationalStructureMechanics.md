@@ -3,12 +3,13 @@ title: "Introduction to Computational Structure Mechanics"
 excerpt: "구조역학을 시작하기 전, 재료부터 들어가며..."
 collection: csm
 permalink: /csm/num1
+date: 2017-10-11
 ---
 
 # 구조역학을 시작하기 전, 재료부터 들어가며...
 1. 구조물의 해석을 힘의 평형 방정식을 통해 가능한지, 불가능한지 판단해야한다.  
-즉, 정정/부정정 구조물 분류를 해야한다.  
-이를 위해 구조물 판별식을 활용하면,
+  즉, 정정/부정정 구조물 분류를 해야한다.  
+  이를 위해 구조물 판별식을 활용하면,
 * truss
   * reaction + element - 2*node = 0 --> 정정 in 2D
   * reaction + element - 3*node = 0 --> 정정 in 3D

@@ -107,9 +107,9 @@ $i\ne j:$  주 대각선 위에 존재하지 않는 응력은 $shear\ stress$이
 > \frac{1}{E} & -\frac{\nu}{E} & -\frac{\nu}{E} & 0 & 0 & 0\\
 > -\frac{\nu}{E} & \frac{1}{E} & -\frac{\nu}{E} & 0 & 0 & 0\\
 > -\frac{\nu}{E} & -\frac{\nu}{E}  & \frac{1}{E} & 0 & 0 & 0\\
-> 0 & 0 & 0& \frac{1}{G} & 0 & 0\\
-> 0 & 0 & 0& \frac{1}{G} & 0 & 0\\
-> 0 & 0 & 0& \frac{1}{G} & 0 & 0\\
+> 0 & 0 & 0 & \frac{1}{G} & 0 & 0\\
+> 0 & 0 & 0 & 0  & \frac{1}{G} & 0\\
+> 0 & 0 & 0 & 0 & 0 & \frac{1}{G}\\
 > \end{bmatrix} \begin{pmatrix}
 > \sigma_{x}\\ \sigma_{y}\\ \sigma_{z}\\ \tau_{xy}\\ \tau_{yz}\\ \tau_{zx}
 > \end{pmatrix}
