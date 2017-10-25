@@ -26,3 +26,6 @@ main:
     
   - title: "Vim"
     url: /vim/
+    
+  - title: "Algo"
+    url: /algo/
